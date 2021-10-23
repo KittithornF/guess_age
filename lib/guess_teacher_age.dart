@@ -158,7 +158,7 @@ class _GuessState extends State<Guess> {
         arguments: {'year': year,'month': month},
       );
     } else {
-      _showMaterialDialog('ผลการทาย', '${guest['text']}');
+      _showMaterialDialog('ผลการทาย', '${guess['text']}');
     }
   }
 
